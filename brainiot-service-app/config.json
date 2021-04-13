@@ -1,0 +1,15 @@
+{
+	":configurator:resource-version" : 1,
+    ":configurator:symbolic-name" : "fr.cea.brain.iot.sensinact-smart-behaviour-app",
+	":configurator:version": "1.0-SNAPSHOT",
+
+    "message.integrity.secure.impl.MessageIntegrityService": {
+	   "host": "498biot102.heracles-lab.eu",
+	   "port": 443,
+	   "username": "user_est_client",
+	   ".password": "fa5_eV-wi72GWiqDtVp2P0EOsVE1tXhJDNfqWT1mvXD4L5qMvyKSLq1OoxRSA6Cc",
+	   "filepathAnchorCertificate": "https://nexus.repository-pert.ismb.it/repository/certificate/authorized_ca/cacert.pem",
+	   "caLabel": "MISEventingCA",
+       "expirationSeconds": 60
+	}
+}
