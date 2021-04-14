@@ -30,9 +30,9 @@ import org.osgi.service.component.annotations.Component;
 @Component(immediate=true, 
 	service = EventBusTranslator.class, 
 	property = {
-		"event=fr.cea.brain.iot.sensinact.api.sensinact.SnaGet",
-		"event=fr.cea.brain.iot.sensinact.api.sensinact.SnaSet",
-		"event=fr.cea.brain.iot.sensinact.api.sensinact.SnaAct"}
+		"event=org.eclipse.sensinact.gateway.brainiot.service.api.SnaGet",
+		"event=org.eclipse.sensinact.gateway.brainiot.service.api.SnaSet",
+		"event=org.eclipse.sensinact.gateway.brainiot.service.api.SnaAct"}
 )
 public class BasisEventBusTranslator implements EventBusTranslator {
 
