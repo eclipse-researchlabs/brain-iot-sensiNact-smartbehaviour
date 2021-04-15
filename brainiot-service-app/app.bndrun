@@ -14,18 +14,19 @@ index: target/index.xml;name="app"
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.metatype)',\
 	bnd.identity;id='org.apache.aries.jax.rs.jackson',\
 	bnd.identity;id='com.paremus.brain.iot.eventing.impl',\
-	bnd.identity;id='org.eclipse.sensinact.brainiot.service.brainiot-service-impl'
+	bnd.identity;id='org.eclipse.sensinact.brainiot.service.brainiot-service-impl',\
+	bnd.identity;id='org.osgi.service.component'
 
 -runfw: org.apache.felix.framework
 -runee: JavaSE-1.8
 
 -resolve.effective: active
 -runbundles: \
-        ch.qos.logback.classic;version='[1.2.3,1.2.4)',\
+		ch.qos.logback.classic;version='[1.2.3,1.2.4)',\
         ch.qos.logback.core;version='[1.2.3,1.2.4)',\
-        com.fasterxml.jackson.core.jackson-annotations;version='[2.9.0,2.9.1)',\
+        com.fasterxml.jackson.core.jackson-annotations;version='[2.9.10,2.9.11)',\
         com.fasterxml.jackson.core.jackson-core;version='[2.9.6,2.9.7)',\
-        com.fasterxml.jackson.core.jackson-databind;version='[2.9.6,2.9.7)',\
+        com.fasterxml.jackson.core.jackson-databind;version='[2.9.10,2.9.11)',\
         com.fasterxml.jackson.jaxrs.jackson-jaxrs-base;version='[2.9.6,2.9.7)',\
         com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider;version='[2.9.6,2.9.7)',\
         com.fasterxml.jackson.module.jackson-module-jaxb-annotations;version='[2.9.6,2.9.7)',\
