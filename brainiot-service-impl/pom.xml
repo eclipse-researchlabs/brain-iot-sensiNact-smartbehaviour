@@ -193,7 +193,13 @@
 		<dependency>
     		<groupId>org.apache.aries.jax.rs</groupId>
     		<artifactId>org.apache.aries.jax.rs.jackson</artifactId>
-			<version>1.0.2</version>
+			<version>1.0.2</version>			
+			<exclusions>
+				<exclusion>
+					<groupId>com.fasterxml.jackson.core</groupId>
+					<artifactId>jackson-databind</artifactId>
+				</exclusion>
+			</exclusions>
     	</dependency> 		
 		<dependency>
     		<groupId>org.apache.aries.jax.rs</groupId>
